@@ -1,0 +1,26 @@
+/* Custom Styles */
+body {
+    font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+}
+
+.card {
+    transition: transform .2s ease-in-out, box-shadow .2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+.fw-light {
+    font-weight: 300 !important;
+}
+
+.btn-outline-secondary {
+    transition: background-color .2s ease-in-out, color .2s ease-in-out;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #6c757d;
+    color: #fff;
+}
